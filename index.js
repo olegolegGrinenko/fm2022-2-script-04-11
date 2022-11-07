@@ -13,3 +13,8 @@ console.log(5+12)
 
  let isSunInSkyNow = false;
   
+
+ let userAge = 23;
+ let isFullAge = true;
+ let programmingLanguage = 'C++';
+ let isPetHavePerson = false;
