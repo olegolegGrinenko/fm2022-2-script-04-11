@@ -1,5 +1,4 @@
-let number = 12;
+let number1 = 12;
+let number2 = "12";
 
-let numberBig = 13n; //bigInt
-
-console.log('1' + 1);
+console.log(number1 + number2);
