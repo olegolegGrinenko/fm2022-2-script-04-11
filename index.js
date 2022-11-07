@@ -1,20 +1,14 @@
-console.log(505)
-console.log('string')
-console.log(true)
-console.log(null)
-console.log(undefined)
+console.log(number1);
+var number1 = 45;
+console.log(number1);
 
-console.log(5+12)
+let userFirstName;
 
- let userFirstname;
- userFirstname = 'Oleg';
- userFirstname = 'Brad';
- console.log(userFirstname);
+const userLastName = "Pit";
 
- let isSunInSkyNow = false;
-  
+userFirstName = "Tom";
+//userFirstName = 'Brad';
 
- let userAge = 23;
- let isFullAge = true;
- let programmingLanguage = 'C++';
- let isPetHavePerson = false;
+//userLastName = 'Cruse';
+
+console.log(userFirstName, userLastName);
