@@ -24,9 +24,9 @@ console.log(remainder );
 let number = 456;
 
 number += 6;
-number = ++number;
+++number;
 number /= 2;
 number -= 3;
-number = --number;
+--number;
 number %= 4;
 number += 'qwerty';
