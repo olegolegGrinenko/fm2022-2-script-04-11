@@ -17,7 +17,7 @@ console.log(division);
 let exponentiation  = number1 ** number2;
 console.log(exponentiation );
 
-let = remainder = number1 % number2;
+let remainder = number1 % number2;
 console.log(remainder );
 
 //Task2
