@@ -1,32 +1,36 @@
-//Task1
-let number1 = 45;
-let number2 = 12;
+/* Task 1. Если значение переменной плюсовое, или 0 -
+   виводим "positive", в другом случае - " negative".
+*/
 
-let summ = number1 + number2;
-console.log(summ);
+const number = -3;
+const positiveNumber = 0;
+if (number >= positiveNumber) {
+  console.log("positive");
+} else {
+  console.log("negative");
+}
 
-let subtraction = number1 - number2;
-console.log(subtraction);
+/* Task 2. Есть 2 переменные - num1 и num2, Если num1 > num2 -
+вывести результат вычитания, в другом случае - результат умножения.
+*/
 
-let multiplication = number1 * number2;
-console.log(multiplication);
+const num1 = 7;
+const num2 = 2;
+if (num1 > num2) {
+  console.log(num1 - num2);
+} else {
+  console.log(num1 * num2);
+}
 
-let division = number1 / number2;
-console.log(division);
+/* Task 3. Если значение переменной кратное 7 и одновременно с этим кратна 3, 
+то выводим "you win!", если нет - "you loose!"
+*/
 
-let exponentiation  = number1 ** number2;
-console.log(exponentiation );
-
-let remainder = number1 % number2;
-console.log(remainder );
-
-//Task2
-let number = 456;
-
-number += 6;
-++number;
-number /= 2;
-number -= 3;
---number;
-number %= 4;
-number += 'qwerty';
+const ourNumber = 21;
+const condition1 = 7;
+const condition2 = 3;
+if ((ourNumber % condition1 === 0) && (ourNumber % condition2 === 0)) {
+    console.log ('you win!');
+} else {
+    console.log ('you loose!');
+}
